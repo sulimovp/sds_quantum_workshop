@@ -1,0 +1,28 @@
+# SDS2026 Quantum AI Workshop — Python Dependencies
+# Python 3.11+ required
+# Install with: pip install -r requirements.txt
+
+# Quantum computing frameworks
+pennylane>=0.44.0
+qiskit>=2.2.0
+qiskit-aer>=0.17.0
+
+# Machine learning
+scikit-learn>=1.4.0
+scipy>=1.12.0
+
+# Deep learning (used for QNN TorchLayer + PINN)
+torch>=2.5.0
+
+# Tensor network / LLM compression (quantum-inspired)
+tensorly>=0.8.0
+
+# Numerical computing
+numpy>=1.26.0
+
+# Visualization
+matplotlib>=3.8.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
